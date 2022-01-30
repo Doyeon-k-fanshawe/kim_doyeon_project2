@@ -1,0 +1,213 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  background-color: #9bac73;
+  margin-bottom: 5em;
+  padding: 3em 10em 3em 10em;
+}
+
+nav {
+  margin: 0;
+}
+
+nav ul {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: large;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin-right: 5em;
+}
+
+nav li:last-child {
+  margin-right: 0em;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #58595B;
+  font-size: inherit;
+}
+
+#container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* All */
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+
+h2 {
+  margin-bottom: .8em;
+  font-size: 30px;
+  color: #9bac73;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+  color: #58595B;
+  font-size: 15px;
+  line-height: 28.5px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.hidden {
+  display: none;
+}
+
+.marginT {
+  margin-top: 3em;
+}
+
+.marginBt {
+  margin-bottom: 5em;
+}
+
+.dropCap {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 50px;
+  float: left;
+  margin: 5px 10px 0px 0px;
+  color: black;
+}
+
+.para1 {
+  font-family: 'Playfair Display', serif;
+  color: #58595B;
+  font-size: 15px;
+  line-height: 31px;
+  font-weight: 400;
+  text-align: justify;
+
+}
+
+/* Intro */
+
+.hero {
+  margin: 0;
+}
+
+.hero img {
+   float: left;
+   width: 50%;
+   margin-right: 3em;
+   margin-bottom: 2em;
+   border-radius: 25px;
+}
+
+/* Section 1 */
+
+.hero2 {
+  padding: 0;
+}
+
+.hero2 img {
+  width: 100%;
+  margin-bottom: 2em;
+  border-radius: 25px;
+}
+
+.h2Element {
+  font-weight: 600;
+  font-size: 30px;
+  color: #9bac73;
+  letter-spacing: 1px;
+}
+
+/* Section 2 */
+
+
+.floatImgRight {
+  float: right;
+  margin-left: 3em;
+  padding: 0;
+}
+
+.floatImgRight img {
+  border-radius: 25px;
+}
+
+figure, figcaption {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.floatImgRight figcaption {
+  margin-top: .5em;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: #666;
+}
+
+/* Section 3 */
+
+.floatImgLeft {
+  float: left;
+  margin-right: 3em;
+  padding: 0;
+}
+
+.floatImgLeft img {
+  border-radius: 25px;
+}
+
+.floatImgLeft figcaption {
+  margin-top: .5em;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: .8px;
+  color: #666;
+}
+
+.paddingT {
+  padding-top: 2.5em;
+}
+
+.marginT2 {
+  margin-top: 5em;
+}
+
+.para2 {
+  font-family: 'Playfair Display', serif;
+  color: #58595B;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+
+/* Conclusion */
+
+.marginT3 {
+  margin-top: 7em;
+}
+
+.hero3 {
+  padding: 0;
+}
+
+.hero3 img {
+  width: 100%;
+  margin-bottom: 2em;
+  border-radius: 25px;
+}
