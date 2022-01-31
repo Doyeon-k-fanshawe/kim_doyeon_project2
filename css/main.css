@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+body {
+  background-color: #F9E3BE;
+}
+
 .head {
   display: flex;
   justify-content: space-around;
@@ -54,6 +59,7 @@ h2 {
   font-size: 30px;
   color: #9bac73;
   letter-spacing: 1px;
+  text-shadow: 1.5px 1.5px #565656;
 }
 
 p {
@@ -84,6 +90,16 @@ p {
   float: left;
   margin: 5px 10px 0px 0px;
   color: black;
+}
+
+.dropCap2 {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 50px;
+  float: left;
+  margin: 5px 10px 0px 0px;
+  color: #9bac73;
+  text-shadow: 1.5px 1.5px #565656;
 }
 
 .para1 {
@@ -127,6 +143,7 @@ p {
   font-size: 30px;
   color: #9bac73;
   letter-spacing: 1px;
+  text-shadow: 1.5px 1.5px #565656;
 }
 
 /* Section 2 */
