@@ -1,6 +1,6 @@
 # Project2
 
-## Making SVG Icons
+## Making a web page
 TODO: Create a web page using flexbox, appropriate fonts, font styles and so on.
 
 ## Contributing
